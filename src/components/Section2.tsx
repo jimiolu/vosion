@@ -6,7 +6,7 @@ import { MoveRight } from "lucide-react";
 
 const Section2 = () => {
   return (
-    <section className="m-2 bg-primary rounded-md">
+    <section className="m-3 bg-primary rounded-md">
       <div className="root-container pt-20 md:pt-5 pb-20 justify-items-center md:-space-y-14 lg:-space-y-20">
         <div className="overflow-hidden w-full">
           <Image

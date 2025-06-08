@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const Section3 = () => {
   return (
-    <section className="m-2 bg-[url(/assets/img2.jpg)] h-[60vh] rounded-md">
+    <section className="m-3 bg-[url(/assets/img2.jpg)] h-[60vh] rounded-md">
       <div className="root-container flex flex-col gap-5 items-center justify-center text-center h-full">
         <Image
           src="/logo.svg"
