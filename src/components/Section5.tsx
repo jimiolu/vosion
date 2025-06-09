@@ -18,7 +18,7 @@ const Section5 = () => {
             className="w-full h-full object-cover rounded-lg"
           ></video>
 
-          <div className="justify-items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
+          <div className="flex flex-col items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
             <h4 className="text-2xl md:text-3xl font-semibold capitalize text-white">
               Explore our Modern Grid Plants.
             </h4>

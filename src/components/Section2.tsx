@@ -19,7 +19,7 @@ const Section2 = () => {
           />
         </div>
 
-        <div className="justify-items-center text-center space-y-5">
+        <div className="flex flex-col items-center text-center space-y-5">
           <h2 className="text-2xl md:text-4xl text-white font-semibold leading-tight">
             #1 Mini-Grid Green Energy Provider in West Africa
           </h2>

@@ -18,7 +18,7 @@ const Section4 = () => {
           />
         </div>
 
-        <div className="justify-items-center text-center space-y-5">
+        <div className="flex flex-col items-center text-center space-y-5">
           <h2 className="text-2xl md:text-4xl text-white font-semibold leading-tight">
             #GridIndependence
           </h2>

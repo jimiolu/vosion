@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-white/10 my-8 text-white">
-            <div className="flex flex-col lg:flex-row justify-between gap-10 mt-10">
+            <div className="flex flex-col lg:flex-row justify-between gap-14 lg:gap-10 mt-10">
               <div className="flex-1 space-y-5">
                 <h4 className="text-lg font-medium">Contact Info</h4>
                 <div className="text-lg font-semibold text-neutral-200">
