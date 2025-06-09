@@ -104,7 +104,7 @@ const MobileNavigation = () => {
           {/* Solutions menu  */}
           {open === "solutions" && (
             <div className="mt-20">
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <h2 className="text-2xl font-medium text-primary">Solutions</h2>
                 <p className="text-neutral-600 font-light">
                   Solving global problems through local implementation.
@@ -131,7 +131,7 @@ const MobileNavigation = () => {
           {/* Projects menu  */}
           {open === "projects" && (
             <div className="mt-20">
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <h2 className="text-2xl font-medium text-primary">Projects</h2>
                 <p className="text-neutral-600 font-light">
                   Addressing global challenges through focused, locally driven
@@ -159,7 +159,7 @@ const MobileNavigation = () => {
           {/* Company menu  */}
           {open === "company" && (
             <div className="mt-20">
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <h2 className="text-2xl font-medium text-primary">Company</h2>
                 <p className="text-neutral-600 font-light">
                   Turning bold ideas into lasting impact through smart
