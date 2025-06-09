@@ -32,9 +32,15 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center">
-            {/* <Image src="/logo.svg" alt="Logo" width={30} height={30} className="w-10 h-10" /> */}
+            <Image
+              src="/logo.svg"
+              alt="Logo"
+              width={30}
+              height={30}
+              className="w-10 h-10"
+            />
             <span className="text-3xl font-semibold text-white lowercase tracking-tight">
-              vo<span className="text-earth">sion</span>
+              vosion
             </span>
           </div>
         </Link>

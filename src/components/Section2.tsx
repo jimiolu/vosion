@@ -14,6 +14,7 @@ const Section2 = () => {
             alt="ProductGrid"
             width={1000}
             height={1000}
+            sizes=""
             className="w-full object-cover"
           />
         </div>

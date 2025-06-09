@@ -123,6 +123,27 @@ export const slides = [
     title: "Powering Progress, Fueling Possibilities.",
     subtitle:
       "From homes to businesses, we’re lighting up lives with energy that’s sustainable, scalable, and smart.",
-    image: "/hero/banner3.jpg",
+    image: "/assets/bg.jpg",
+  },
+];
+
+export const MarqueeItem = [
+  {
+    id: 1,
+    title: "+200 Customers",
+    desc: "Over 200 satisfied customers",
+    icon: "/icons/sun.png",
+  },
+  {
+    id: 2,
+    title: "#GridIndependence",
+    desc: "Leadership in Grid Independence",
+    icon: "/icons/flag.png",
+  },
+  {
+    id: 3,
+    title: "Powering Nations",
+    desc: "We are powering nations",
+    icon: "/icons/ch.png",
   },
 ];

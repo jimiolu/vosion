@@ -30,7 +30,7 @@ const Hero = () => {
                 priority={index === 0}
               />
               <div className="absolute inset-0 flex flex-col gap-5 items-center justify-center text-center text-white px-4 md:w-[80%] lg:w-1/2 mx-auto">
-                <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
+                <h1 className="text-4xl md:text-5xl font-semibold leading-tight lg:w-[80%]">
                   {slide.title}
                 </h1>
                 <p className="text-base md:text-lg text-neutral-300 w-[90%] lg:w-[80%]">

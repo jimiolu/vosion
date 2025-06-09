@@ -39,6 +39,7 @@ const Section5 = () => {
             src="/assets/img.jpg"
             alt="PayApp"
             fill
+            sizes="auto"
             className="w-full h-full object-cover rounded-lg"
           />
           <div className="absolute inset-0 bg-blue-900/60 rounded-lg" />
@@ -64,6 +65,7 @@ const Section5 = () => {
             src="/assets/img4.png"
             alt="PayApp"
             fill
+            sizes="auto"
             className="w-full h-full object-cover rounded-lg"
           />
           {/* <div className="absolute inset-0 bg-blue-900/60 rounded-lg" /> */}
@@ -106,8 +108,6 @@ const Section5 = () => {
             </Link>
           </div>
         </div>
-
-
       </div>
     </section>
   );

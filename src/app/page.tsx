@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Marquee from "@/components/Marquee";
 import Section2 from "@/components/Section2";
 import Section3 from "@/components/Section3";
 import Section4 from "@/components/Section4";
@@ -14,6 +15,7 @@ export default function Home() {
       <Section4 />
       <Section5 />
       <Section6 />
+      <Marquee />
     </div>
   );
 }
