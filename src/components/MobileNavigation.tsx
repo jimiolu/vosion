@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  ArrowLeft,
-  ChevronLeft,
-  ChevronRight,
-  Logs,
-  Menu,
-  MoveRight,
-  X,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, Logs, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -45,11 +37,11 @@ const MobileNavigation = () => {
 
       {/* Full Screen overlay  */}
       {open && (
-        <div className="fixed inset-0 bg-white shadow-sm p-6 z-50 overflow-hidden h-screen">
+        <div className="fixed inset-0 bg-white shadow-sm p-6 z-50 overflow-hidden h-[150vh]">
           {/* close button  */}
           <div>
             {open === "main" && (
-              <h2 className="text-lg font-medium uppercase text-neutral-500 pt-5">
+              <h2 className="text-sm font-medium uppercase text-neutral-500 pt-5">
                 Menu
               </h2>
             )}
@@ -80,8 +72,8 @@ const MobileNavigation = () => {
                     className="flex gap-2 items-center justify-center text-basecolor"
                     onClick={() => setOpen("solutions")}
                   >
-                    <span className="text-2xl">Services</span>
-                    <ChevronRight className="size-6" />
+                    <span className="text-xl">Services</span>
+                    <ChevronRight className="size-4" />
                   </button>
                 </li>
                 <li>
@@ -89,8 +81,8 @@ const MobileNavigation = () => {
                     className="flex gap-2 items-center justify-center text-basecolor"
                     onClick={() => setOpen("projects")}
                   >
-                    <span className="text-2xl">Projects</span>
-                    <ChevronRight className="size-6" />
+                    <span className="text-xl">Projects</span>
+                    <ChevronRight className="size-4" />
                   </button>
                 </li>
                 <li>
@@ -98,8 +90,8 @@ const MobileNavigation = () => {
                     className="flex gap-2 items-center justify-center text-basecolor"
                     onClick={() => setOpen("company")}
                   >
-                    <span className="text-2xl">Company</span>
-                    <ChevronRight className="size-6" />
+                    <span className="text-xl">Company</span>
+                    <ChevronRight className="size-4" />
                   </button>
                 </li>
               </ul>
