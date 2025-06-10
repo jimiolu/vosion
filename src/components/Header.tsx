@@ -32,15 +32,15 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center">
-            <Image
+            {/* <Image
               src="/logo.svg"
               alt="Logo"
               width={30}
               height={30}
-              className="size-9"
-            />
-            <span className="text-3xl font-medium text-white lowercase tracking-tight">
-              vosion
+              className="size-8"
+            /> */}
+            <span className="text-4xl font-medium text-white lowercase tracking-tight font-righteous">
+              vo<span className="text-earth">sion</span>
             </span>
           </div>
         </Link>
@@ -56,7 +56,7 @@ export default function Header() {
           <Minimenu className="text-white w-auto focus:outline-none" />
 
           <Link href="/contact">
-            <Button className="bg-white text-basecolor rounded-full cursor-pointer px-6 py-1 hover:bg-transparent hover:border-2 hover:border-earth hover:text-white transition-all duration-500">
+            <Button className="bg-white text-basecolor rounded-full cursor-pointer px-6 py-1 hover:bg-earth hover:text-white transition-all duration-300">
               Get Started
             </Button>
           </Link>

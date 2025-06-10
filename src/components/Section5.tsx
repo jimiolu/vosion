@@ -26,7 +26,7 @@ const Section5 = () => {
               Discover our installation gallery.
             </p>
             <Link href="/get-started" className="mt-5">
-              <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+              <Button className="btn-white">
                 <span className="text-sm md:text-base">View Gallery</span>
                 <MoveRight />
               </Button>
@@ -52,7 +52,7 @@ const Section5 = () => {
               go.
             </p>
             <Link href="/get-started" className="mt-5 inline-block">
-              <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+              <Button className="btn-white">
                 <span className="text-sm md:text-base">Download App</span>
                 <MoveRight />
               </Button>
@@ -77,7 +77,7 @@ const Section5 = () => {
               Discover the future of energy saving with our IQ battery.
             </p>
             <Link href="/get-started" className="mt-5 inline-block">
-              <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+              <Button className="btn-white">
                 <span className="text-sm md:text-base">Discover Now</span>
                 <MoveRight />
               </Button>
@@ -101,7 +101,7 @@ const Section5 = () => {
               See what customers say about us.
             </p>
             <Link href="/get-started" className="mt-5 inline-block">
-              <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+              <Button className="btn-white">
                 <span className="text-sm md:text-base">See Reviews</span>
                 <MoveRight />
               </Button>

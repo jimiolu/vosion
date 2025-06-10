@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Rubik } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Outfit, Righteous, Rubik } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 import Header from "@/components/Header";
@@ -15,10 +15,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const righteous = Righteous({
+  variable: "--font-righteous",
   subsets: ["latin"],
+  weight: ["400"],
 });
+
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "Vosion | Seeing Power Differently",
@@ -29,7 +35,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${outfit.className} ${geistSans.variable} ${geistMono.variable} ${righteous.variable}  antialiased`}
       >
         <Header />
         {children}

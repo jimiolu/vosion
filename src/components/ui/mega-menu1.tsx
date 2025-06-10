@@ -22,7 +22,7 @@ const Megamenu1 = () => {
 
       {/* Mega dropdown full screen  */}
       <div
-        className={`fixed top-[90px] left-0 w-full bg-white shadow-md border-t border-gray-200 transition-all duration-500 ease-in-out origin-top transform ${
+        className={`mega-menu ${
           isOpen
             ? "scale-y-100 opacity-100 visible h-[60vh]"
             : "scale-y-0 opacity-0 invisible h-0"

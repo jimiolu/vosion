@@ -17,15 +17,15 @@ const MobileNavigation = () => {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center ">
-            <Image
+            {/* <Image
               src="/logo.svg"
               alt="Logo"
               width={30}
               height={30}
-              className="w-8 h-8"
-            />
-            <span className="text-3xl font-medium text-white lowercase tracking-tight">
-              vosion
+              className="size-8"
+            /> */}
+            <span className="text-3xl font-medium text-white lowercase tracking-tight font-righteous">
+              vo<span className="text-earth">sion</span>
             </span>
           </div>
         </Link>
@@ -69,7 +69,7 @@ const MobileNavigation = () => {
               <ul className="mt-10 space-y-15">
                 <li>
                   <button
-                    className="flex gap-2 items-center justify-center text-basecolor"
+                    className="main-menu-btn"
                     onClick={() => setOpen("solutions")}
                   >
                     <span className="text-xl">Services</span>
@@ -78,7 +78,7 @@ const MobileNavigation = () => {
                 </li>
                 <li>
                   <button
-                    className="flex gap-2 items-center justify-center text-basecolor"
+                    className="main-menu-btn"
                     onClick={() => setOpen("projects")}
                   >
                     <span className="text-xl">Projects</span>
@@ -87,7 +87,7 @@ const MobileNavigation = () => {
                 </li>
                 <li>
                   <button
-                    className="flex gap-2 items-center justify-center text-basecolor"
+                    className="main-menu-btn"
                     onClick={() => setOpen("company")}
                   >
                     <span className="text-xl">Company</span>
@@ -104,7 +104,7 @@ const MobileNavigation = () => {
           {/* Solutions menu  */}
           {open === "solutions" && (
             <div className="mt-20">
-              <div className="space-y-2 border-b border-gray-200 pb-6">
+              <div className="child-menu-container">
                 <h2 className="text-xl font-medium text-primary">Solutions</h2>
                 <p className="text-neutral-500 font-light text-sm">
                   Solving global problems through local implementation.
@@ -131,7 +131,7 @@ const MobileNavigation = () => {
           {/* Projects menu  */}
           {open === "projects" && (
             <div className="mt-20">
-              <div className="space-y-2 border-b border-gray-200 pb-6">
+              <div className="child-menu-container">
                 <h2 className="text-xl font-medium text-primary">Projects</h2>
                 <p className="text-neutral-500 font-light text-sm">
                   Addressing global challenges through focused, locally driven
@@ -159,7 +159,7 @@ const MobileNavigation = () => {
           {/* Company menu  */}
           {open === "company" && (
             <div className="mt-20">
-              <div className="space-y-2 border-b border-gray-200 pb-6">
+              <div className="child-menu-container">
                 <h2 className="text-xl font-medium text-primary">Company</h2>
                 <p className="text-neutral-400 font-ligh text-sm">
                   Turning bold ideas into lasting impact through smart

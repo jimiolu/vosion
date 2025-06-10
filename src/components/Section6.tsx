@@ -23,7 +23,7 @@ const Section6 = () => {
             100% energy independence.
           </p>
           <Link href="/get-started" className="mt-5 inline-block">
-            <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+            <Button className="btn-white">
               <span className="text-sm md:text-base">Get Started</span>
               <MoveRight />
             </Button>

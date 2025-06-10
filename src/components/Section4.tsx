@@ -27,13 +27,13 @@ const Section4 = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-5 mt-5">
             <Link href="/get-started">
-              <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
+              <Button className="btn-white">
                 <span className="text-sm md:text-base">Get Started</span>
                 <MoveRight />
               </Button>
             </Link>
             <Link href="/shop">
-              <Button className="flex items-center bg-white/25 backdrop-blur-2xl w-56 py-6 rounded-full cursor-pointer hover:bg-white/10 transition-all duration-500">
+              <Button className="btn-transparent">
                 <ShoppingCart />
                 <span className="text-sm md:text-base">Shop Now</span>
               </Button>

@@ -8,29 +8,26 @@ const Footer = () => {
     <div className="bg-primary py-10">
       <div className="root-container space-y-20">
         <div>
-          <div className="flex flex-col md:flex-row items-start lg:items-center justify-between gap-10">
+          <div className="top-footer">
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center">
-                <Image
+                {/* <Image
                   src="/logo.svg"
                   alt="Logo"
                   width={30}
                   height={30}
-                  className="w-6 h-6"
-                />
-                <span className="text-3xl font-medium text-white lowercase tracking-tight">
-                  vosion
+                  className="size-8"
+                /> */}
+                <span className="text-3xl font-medium text-white lowercase tracking-tight font-righteous">
+                  vo<span className="text-earth">sion</span>
                 </span>
               </div>
             </Link>
 
             {/* Social icons  */}
             <div className="flex gap-3 items-center">
-              <Link
-                href="https://x.com/vosionco"
-                className="size-9 bg-white/10 flex items-center justify-center rounded-md hover:bg-white/30"
-              >
+              <Link href="https://x.com/vosionco" className="social-icon">
                 <Image
                   src="/icons/x.png"
                   alt="X"
@@ -41,7 +38,7 @@ const Footer = () => {
               </Link>
               <Link
                 href="https://instagram.com/vosioneco"
-                className="size-9 bg-white/10 flex items-center justify-center rounded-md hover:bg-white/30"
+                className="social-icon"
               >
                 <Image
                   src="/icons/ig.png"
@@ -53,7 +50,7 @@ const Footer = () => {
               </Link>
               <Link
                 href="https://linkedin.com/in/vosionco"
-                className="size-9 bg-white/10 flex items-center justify-center rounded-md hover:bg-white/30"
+                className="social-icon"
               >
                 <Image
                   src="/icons/lin.png"
@@ -65,7 +62,7 @@ const Footer = () => {
               </Link>
               <Link
                 href="https://facebook.com/vosionco"
-                className="size-9 bg-white/10 flex items-center justify-center rounded-md hover:bg-white/30"
+                className="social-icon"
               >
                 <Image
                   src="/icons/fb.png"
@@ -77,7 +74,7 @@ const Footer = () => {
               </Link>
               <Link
                 href="https://youtube.com/@vosionco"
-                className="size-9 bg-white/10 flex items-center justify-center rounded-md hover:bg-white/30"
+                className="social-icon"
               >
                 <Image
                   src="/icons/yt.png"
@@ -155,7 +152,7 @@ const Footer = () => {
 
         <div className="pt-3 border-t border-white/10">
           <p className="text-sm text-neutral-400">
-           Copyright © {new Date().getFullYear()} Vosion. All rights reserved.
+            Copyright © {new Date().getFullYear()} Vosion. All rights reserved.
           </p>
         </div>
       </div>
