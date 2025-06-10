@@ -55,7 +55,7 @@ export default function Header() {
           {/* Actions: Language + CTA */}
           <Minimenu className="text-white w-auto focus:outline-none" />
 
-          <Link href="/contact">
+          <Link href="/get-started">
             <Button className="bg-white text-basecolor rounded-full cursor-pointer px-6 py-1 hover:bg-earth hover:text-white transition-all duration-300">
               Get Started
             </Button>
