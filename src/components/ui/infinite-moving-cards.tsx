@@ -103,7 +103,7 @@ export const InfiniteMovingCards = ({
                   alt="Icon"
                   width={30}
                   height={30}
-                  className="w-12 h-12"
+                  className="w-8 h-8"
                 />
                 <h3 className="font-bold text-basecolor text-xl">
                   {item.title}

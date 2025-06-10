@@ -16,15 +16,15 @@ const Section6 = () => {
         />
         <div className="absolute inset-0 bg-slate/80 rounded-lg" />
         <div className="justify-items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
-          <h4 className="text-3xl font-semibold capitalize text-white">
+          <h4 className="text-2xl md:text-3xl font-semibold capitalize text-white">
             Folar Palnet Batteries
           </h4>
-          <p className="text-neutral-200 text-base md:text-lg">
+          <p className="text-neutral-200 text-sm md:text-lg">
             100% energy independence.
           </p>
           <Link href="/get-started" className="mt-5 inline-block">
             <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300">
-              <span className="text-base">Get Started</span>
+              <span className="text-sm md:text-base">Get Started</span>
               <MoveRight />
             </Button>
           </Link>

@@ -17,14 +17,14 @@ const MobileNavigation = () => {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center ">
-            <Image
+            {/* <Image
               src="/logo.svg"
               alt="Logo"
               width={30}
               height={30}
-              className="w-10 h-10"
-            />
-            <span className="text-3xl font-semibold text-white lowercase tracking-tight">
+              className="w-8 h-8"
+            /> */}
+            <span className="text-3xl font-medium text-white lowercase tracking-tight">
               vosion
             </span>
           </div>
@@ -37,7 +37,7 @@ const MobileNavigation = () => {
 
       {/* Full Screen overlay  */}
       {open && (
-        <div className="fixed inset-0 bg-white shadow-sm p-6 z-50 overflow-hidden h-[150vh]">
+        <div className="fixed inset-0 bg-white shadow-sm p-6 z-50 overflow-y-auto h-screen">
           {/* close button  */}
           <div>
             {open === "main" && (
@@ -104,9 +104,9 @@ const MobileNavigation = () => {
           {/* Solutions menu  */}
           {open === "solutions" && (
             <div className="mt-20">
-              <div className="space-y-2">
+              <div className="space-y-2 border-b border-gray-200 pb-6">
                 <h2 className="text-2xl font-medium text-primary">Solutions</h2>
-                <p className="text-neutral-600 font-light">
+                <p className="text-neutral-500 font-light text-sm">
                   Solving global problems through local implementation.
                 </p>
               </div>
@@ -131,9 +131,9 @@ const MobileNavigation = () => {
           {/* Projects menu  */}
           {open === "projects" && (
             <div className="mt-20">
-              <div className="space-y-2">
+              <div className="space-y-2 border-b border-gray-200 pb-6">
                 <h2 className="text-2xl font-medium text-primary">Projects</h2>
-                <p className="text-neutral-600 font-light">
+                <p className="text-neutral-500 font-light text-sm">
                   Addressing global challenges through focused, locally driven
                   projects.
                 </p>
@@ -146,7 +146,7 @@ const MobileNavigation = () => {
                       <h4 className="text-primary text-lg font-medium hover:underline hover:text-earth">
                         {item.title}
                       </h4>
-                      <span className="text-sm text-neutral-500 font-light">
+                      <span className="text-sm text-neutral-400 font-light">
                         {item.desc}
                       </span>
                     </Link>
@@ -159,9 +159,9 @@ const MobileNavigation = () => {
           {/* Company menu  */}
           {open === "company" && (
             <div className="mt-20">
-              <div className="space-y-2">
+              <div className="space-y-2 border-b border-gray-200 pb-6">
                 <h2 className="text-2xl font-medium text-primary">Company</h2>
-                <p className="text-neutral-600 font-light">
+                <p className="text-neutral-400 font-ligh text-sm">
                   Turning bold ideas into lasting impact through smart
                   innovation and solid implementation.
                 </p>
@@ -174,7 +174,7 @@ const MobileNavigation = () => {
                       <h4 className="text-primary text-lg font-medium hover:underline hover:text-earth">
                         {item.title}
                       </h4>
-                      <span className="text-sm text-neutral-500 font-light">
+                      <span className="text-sm text-neutral-400 font-light">
                         {item.desc}
                       </span>
                     </Link>

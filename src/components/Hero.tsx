@@ -30,23 +30,23 @@ const Hero = () => {
                 priority={index === 0}
               />
               <div className="absolute inset-0 flex flex-col gap-5 items-center justify-center text-center text-white px-4 md:w-[80%] lg:w-1/2 mx-auto">
-                <h1 className="text-4xl md:text-5xl font-semibold leading-tight lg:w-[80%]">
+                <h1 className="text-3xl md:text-5xl font-semibold leading-tight lg:w-[80%]">
                   {slide.title}
                 </h1>
-                <p className="text-base md:text-lg text-neutral-300 w-[90%] lg:w-[80%]">
+                <p className="text-sm md:text-lg text-neutral-300 w-[90%] lg:w-[80%]">
                   {slide.subtitle}
                 </p>
                 <div className="flex flex-col md:flex-row gap-5 mt-5">
                   <Link href="/get-started">
                     <Button className="flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white  transition-all duration-500">
-                      <span className="text-base">Get Started</span>
+                      <span className="text-sm md:text-base">Get Started</span>
                       <MoveRight />
                     </Button>
                   </Link>
                   <Link href="/shop">
                     <Button className="flex items-center bg-white/25 backdrop-blur-2xl w-56 py-6 rounded-full cursor-pointer hover:bg-white/10 transition-all duration-500">
                       <ShoppingCart />
-                      <span className="text-base">Shop Now</span>
+                      <span className="text-sm md:text-base">Shop Now</span>
                     </Button>
                   </Link>
                 </div>

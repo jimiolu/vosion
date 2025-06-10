@@ -32,13 +32,13 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center">
-            <Image
+            {/* <Image
               src="/logo.svg"
               alt="Logo"
               width={30}
               height={30}
               className="w-10 h-10"
-            />
+            /> */}
             <span className="text-3xl font-semibold text-white lowercase tracking-tight">
               vosion
             </span>
