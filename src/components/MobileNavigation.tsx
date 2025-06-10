@@ -17,13 +17,13 @@ const MobileNavigation = () => {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center ">
-            {/* <Image
+            <Image
               src="/logo.svg"
               alt="Logo"
               width={30}
               height={30}
               className="w-8 h-8"
-            /> */}
+            />
             <span className="text-3xl font-medium text-white lowercase tracking-tight">
               vosion
             </span>

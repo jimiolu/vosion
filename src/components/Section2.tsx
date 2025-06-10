@@ -20,12 +20,12 @@ const Section2 = () => {
         </div>
 
         <div className="flex flex-col items-center text-center space-y-5">
-          <h2 className="text-2xl md:text-4xl text-white font-semibold leading-tight">
+          <h2 className="text-2xl md:text-4xl text-white font-medium leading-tight">
             Top Mini-Grid Green Energy Provider in West Africa.
           </h2>
           <p className="text-neutral-300 md:w-[80%] lg:w-[70%] text-sm md:text-lg">
             Due to the rapid growth of the power sector in West Africa, we are
-            top #1 Mini-Grid Green Energy Provider in the West.
+            top Mini-Grid Green Energy Provider in the West.
           </p>
           <div className="flex flex-col md:flex-row gap-5 mt-5">
             <Link href="/get-started">

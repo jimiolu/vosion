@@ -17,9 +17,9 @@ const Footer = () => {
                   alt="Logo"
                   width={30}
                   height={30}
-                  className="w-10 h-10"
+                  className="w-8 h-8"
                 />
-                <span className="text-3xl font-semibold text-white lowercase tracking-tight">
+                <span className="text-3xl font-medium text-white lowercase tracking-tight">
                   vosion
                 </span>
               </div>
@@ -94,7 +94,7 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row justify-between gap-14 lg:gap-10 mt-10">
               <div className="flex-1 space-y-5">
                 <h4 className="text-lg font-medium">Contact Info</h4>
-                <div className="text-lg font-semibold text-neutral-200">
+                <div className="text-lg font-medium text-neutral-200">
                   <p>info@vosion.co</p>
                   <p>234 (708) 3432153</p>
                 </div>
