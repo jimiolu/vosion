@@ -22,7 +22,7 @@ const MobileNavigation = () => {
               alt="Logo"
               width={30}
               height={30}
-              className="w-8 h-8"
+              className="w-6 h-6"
             />
             <span className="text-3xl font-medium text-white lowercase tracking-tight">
               vosion
@@ -105,7 +105,7 @@ const MobileNavigation = () => {
           {open === "solutions" && (
             <div className="mt-20">
               <div className="space-y-2 border-b border-gray-200 pb-6">
-                <h2 className="text-2xl font-medium text-primary">Solutions</h2>
+                <h2 className="text-xl font-medium text-primary">Solutions</h2>
                 <p className="text-neutral-500 font-light text-sm">
                   Solving global problems through local implementation.
                 </p>
@@ -132,7 +132,7 @@ const MobileNavigation = () => {
           {open === "projects" && (
             <div className="mt-20">
               <div className="space-y-2 border-b border-gray-200 pb-6">
-                <h2 className="text-2xl font-medium text-primary">Projects</h2>
+                <h2 className="text-xl font-medium text-primary">Projects</h2>
                 <p className="text-neutral-500 font-light text-sm">
                   Addressing global challenges through focused, locally driven
                   projects.
@@ -160,7 +160,7 @@ const MobileNavigation = () => {
           {open === "company" && (
             <div className="mt-20">
               <div className="space-y-2 border-b border-gray-200 pb-6">
-                <h2 className="text-2xl font-medium text-primary">Company</h2>
+                <h2 className="text-xl font-medium text-primary">Company</h2>
                 <p className="text-neutral-400 font-ligh text-sm">
                   Turning bold ideas into lasting impact through smart
                   innovation and solid implementation.

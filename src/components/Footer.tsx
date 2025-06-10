@@ -17,7 +17,7 @@ const Footer = () => {
                   alt="Logo"
                   width={30}
                   height={30}
-                  className="w-8 h-8"
+                  className="w-6 h-6"
                 />
                 <span className="text-3xl font-medium text-white lowercase tracking-tight">
                   vosion
