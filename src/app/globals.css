@@ -162,9 +162,9 @@
 
   /* Button  */
   .btn-white {
-    @apply flex items-center bg-white text-basecolor w-56 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300;
+    @apply flex items-center bg-white text-primary w-48 py-6 rounded-full cursor-pointer hover:bg-earth hover:text-white transition-all duration-300;
   }
   .btn-transparent {
-    @apply flex items-center bg-white/25 backdrop-blur-2xl w-56 py-6 rounded-full cursor-pointer hover:bg-white/10 transition-all duration-500;
+    @apply flex items-center bg-white/25 backdrop-blur-2xl w-48 py-6 rounded-full cursor-pointer hover:bg-white/10 transition-all duration-500;
   }
 }

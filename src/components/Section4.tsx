@@ -19,7 +19,7 @@ const Section4 = () => {
         </div>
 
         <div className="flex flex-col items-center text-center space-y-5">
-          <h2 className="text-2xl md:text-4xl text-white font-medium leading-tight">
+          <h2 className="text-2xl md:text-3xl text-white font-medium leading-tight">
             #GridIndependence
           </h2>
           <p className="text-neutral-300 text-sm md:text-lg">
