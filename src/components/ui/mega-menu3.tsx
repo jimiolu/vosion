@@ -24,7 +24,7 @@ const Megamenu3 = () => {
       <div
         className={`mega-menu ${
           isOpen
-            ? "scale-y-100 opacity-100 visible h-[60vh] py-10 overflow-y-auto"
+            ? "scale-y-100 opacity-100 visible h-[70vh] py-10 overflow-y-auto"
             : "scale-y-0 opacity-0 invisible h-0"
         }`}
       >
@@ -48,7 +48,7 @@ const Megamenu3 = () => {
             </div>
           </div>
           <div className="flex-2 pl-10">
-            <div className="grid grid-cols-2 gap-y-10 gap-x-10">
+            <div className="grid grid-cols-2 gap-10">
               {ProjectLinks.map((item) => (
                 <div key={item.id} className="flex flex-col gap-3">
                   <Link
