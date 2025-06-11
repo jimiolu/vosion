@@ -24,11 +24,11 @@ const Megamenu3 = () => {
       <div
         className={`mega-menu ${
           isOpen
-            ? "scale-y-100 opacity-100 visible h-[60vh]"
+            ? "scale-y-100 opacity-100 visible h-auto py-10"
             : "scale-y-0 opacity-0 invisible h-0"
         }`}
       >
-        <div className="root-container flex py-20 gap-10 h-full">
+        <div className="root-container flex py-10 gap-10 h-full">
           <div className="flex-1 space-y-10">
             <div className="space-y-3">
               <h3 className="text-2xl font-medium text-primary">Projects</h3>
