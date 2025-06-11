@@ -24,7 +24,7 @@ const Megamenu1 = () => {
       <div
         className={`mega-menu ${
           isOpen
-            ? "scale-y-100 opacity-100 visible h-auto py-10"
+            ? "scale-y-100 opacity-100 visible h-1/2 py-10"
             : "scale-y-0 opacity-0 invisible h-0"
         }`}
       >
@@ -36,7 +36,7 @@ const Megamenu1 = () => {
                 Solving global problems through local implementation.
               </span>
             </div>
-            <div className="max-w-96 h-1/2 overflow-hidden rounded-lg shadow-sm">
+            <div className="max-w-96 max-h-40 overflow-hidden">
               <Image
                 src="https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="solutions"
@@ -47,7 +47,7 @@ const Megamenu1 = () => {
             </div>
           </div>
           <div className="flex-2 pl-10">
-            <div className="grid grid-cols-2 gap-y-15 gap-x-10">
+            <div className="grid grid-cols-2 gap-y-10 gap-x-10">
               {SolutionLinks.map((item) => (
                 <div key={item.id} className="flex flex-col gap-3">
                   <Link
