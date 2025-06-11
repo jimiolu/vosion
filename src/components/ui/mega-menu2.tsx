@@ -46,7 +46,7 @@ const Megamenu2 = () => {
               />
             </div>
           </div>
-          <div className="flex-2 border-gray-200 pl-10">
+          <div className="flex-2 pl-10">
             <div className="grid grid-cols-2 gap-y-15 gap-x-10">
               {ProductLinks.map((item) => (
                 <div key={item.id} className="flex flex-col gap-3">

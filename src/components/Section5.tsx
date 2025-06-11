@@ -19,7 +19,7 @@ const Section5 = () => {
           ></video>
           <div className="absolute inset-0 bg-slate-900/30 rounded-lg" />
           <div className="flex flex-col items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
-            <h4 className="text-xl md:text-2xl font-semibold capitalize text-white">
+            <h4 className="text-xl md:text-2xl font-medium capitalize text-white">
               Explore our Modern Grid Plants.
             </h4>
             <p className="text-neutral-200 text-sm md:text-lg">
@@ -44,7 +44,7 @@ const Section5 = () => {
           />
           <div className="absolute inset-0 bg-blue-900/60 rounded-lg" />
           <div className="justify-items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
-            <h4 className="text-xl md:text-2xl font-semibold capitalize text-white">
+            <h4 className="text-xl md:text-2xl font-medium capitalize text-white">
               Pay and monitor your energy usage.
             </h4>
             <p className="text-neutral-200 text-sm md:text-lg">
@@ -70,7 +70,7 @@ const Section5 = () => {
           />
           {/* <div className="absolute inset-0 bg-blue-900/60 rounded-lg" /> */}
           <div className="justify-items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
-            <h4 className="text-xl md:text-2xl font-semibold capitalize text-basecolor">
+            <h4 className="text-xl md:text-2xl font-medium capitalize text-basecolor">
               Discover our IQ battery
             </h4>
             <p className="text-neutral-600 text-sm md:text-lg">
@@ -94,7 +94,7 @@ const Section5 = () => {
           />
           <div className="absolute inset-0 bg-teal-900/60 rounded-lg" />
           <div className="justify-items-center text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-3 w-full px-4 md:px-8">
-            <h4 className="text-xl md:text-2xl font-semibold capitalize text-white">
+            <h4 className="text-xl md:text-2xl font-medium capitalize text-white">
               See our success stories
             </h4>
             <p className="text-neutral-200 text-sm md:text-lg">

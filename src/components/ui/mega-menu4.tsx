@@ -37,7 +37,7 @@ const Megamenu4 = () => {
                 and solid implementation.
               </span>
             </div>
-            <div className="max-w-96 h-56 overflow-hidden rounded-lg shadow-sm">
+            <div className="max-w-96 h-1/2 overflow-hidden rounded-lg shadow-sm">
               <Image
                 src="https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="solutions"
@@ -47,7 +47,7 @@ const Megamenu4 = () => {
               />
             </div>
           </div>
-          <div className="flex-2 border-gray-200 pl-10">
+          <div className="flex-2 pl-10">
             <div className="grid grid-cols-2 gap-y-15 gap-x-10">
               {CompanyLinks.map((item) => (
                 <div key={item.id} className="flex flex-col gap-3">
