@@ -24,7 +24,7 @@ const Megamenu1 = () => {
       <div
         className={`mega-menu ${
           isOpen
-            ? "scale-y-100 opacity-100 visible h-[70vh] py-10 overflow-y-auto"
+            ? "scale-y-100 opacity-100 visible py-10 overflow-y-auto"
             : "scale-y-0 opacity-0 invisible h-0"
         }`}
       >

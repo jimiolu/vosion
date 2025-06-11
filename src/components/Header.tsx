@@ -28,7 +28,7 @@ export default function Header() {
         isSticky ? "bg-primary shadow-sm backdrop-blur-md" : "bg-transparent"
       }`}
     >
-      <div className="hidden lg:flex root-container items-center justify-between px-6 py-6">
+      <div className="hidden lg:flex root-container items-center justify-between px-6 py-5">
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center">

@@ -11,7 +11,7 @@ import { MoveRight, ShoppingCart } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-[80vh]">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 5000 }}
@@ -21,7 +21,7 @@ const Hero = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-screen">
+            <div className="relative w-full h-[80vh]">
               <Image
                 src={slide.image}
                 alt={slide.title}
